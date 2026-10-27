@@ -1,6 +1,19 @@
+
+# Environnement Python
 venv/
 .venv/
 __pycache__/
 *.pyc
-.env
+
+# Données locales
 data/
+
+# Informations confidentielles
+.env
+.streamlit/secrets.toml
+
+# Notebooks temporaires
+.ipynb_checkpoints/
+
+# Modèles entraînés volumineux
+models/
